@@ -1,0 +1,58 @@
+body {
+    background-color: slateblue;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+hgroup {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+header,
+section,
+nav,
+article,
+aside,
+footer,
+hgroup {
+    border: 3px;
+}
+
+.agrupar {
+    width: 900px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+ul li {
+    display: inline-block;
+    border: 5px solid;
+    border-color: black;
+    padding: 10px;
+    text-align: left;
+}
+
+section {
+    text-align: center;
+    width: 60%;
+    border: 1px solid black;
+}
+
+section p {
+    text-align: left;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    margin-bottom: 0px;
+}
+
+.pie {
+    clear: both;
+}
